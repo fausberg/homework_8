@@ -1,8 +1,8 @@
 package git9;
 
 public class Rectangle extends Shape {
-    int x;
-    int y;
+    private int x;
+    private int y;
 
     public Rectangle(String color, int x, int y) {
         super(color);

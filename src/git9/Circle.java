@@ -1,8 +1,8 @@
 package git9;
 
 public class Circle extends Shape {
-    int x;
-    int y;
+    private int x;
+    private int y;
 
     public Circle(String color, int x, int y) {
         super(color);

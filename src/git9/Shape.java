@@ -3,7 +3,7 @@ package git9;
 import java.util.Objects;
 
 public abstract class Shape {
-    String color;
+    private String color;
 
     public Shape(String color) {
         this.color = color;
